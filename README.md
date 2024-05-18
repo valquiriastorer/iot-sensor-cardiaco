@@ -67,23 +67,6 @@ Neste sensor de frequência cardíaca, a leitura das batidas do coração é fei
 ![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/83fd9b16-6008-4fc2-8886-7b313ac3bb89)
 
 5. Abrir em outra janela da IDE o arquivo WIFI.ino. Se conectar a esp8266 em Boards e repetir o mesmo processo feito com o Arduino.
-6. Adicionar as seguintes bibliotecas à pasta de bibliotecas do Arduino em `Sketch > Include Library > Manage Library...`:
-
-  ![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/ff7c20a5-5b09-4876-997f-85c263c8dd8d)
-
-  - **Pulse Sensor:** Em Library Manager, pesquisar por "PulseSensor" e instale ou atualize:
-
-     ![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/127af8b0-809c-44f1-8c30-294bba749a83)
-
-  - **ESP8266 MQTT Ubidots:** Em `Files > Preferences`, adicionar http://arduino.esp8266.com/stable/package_esp8266com_index.json a Additional Board Manager URLs
-
-    ![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/f8811dab-5d84-462e-bf04-76696c47eeee)
-    
-    Em `Tools > Boards Manager` instale a plataforma esp8266.
-
-    ![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/5d3a3a1c-0012-4e3b-bf7b-ffe3bb33ffb6)
-
-    Baixar a biblioteca [ubidots-mqtt-esp](https://github.com/ubidots/ubidots-mqtt-esp) como .zip, em `Sketch > Include Library > Add .ZIP Library` adicione o arquivo .zip e clique em Accept 
 
 ### Comunicação com a internet com protocolo MQTT
 Para conexão DO PROJETO com a internet usando o protocolo MQTT, foi utilizado a plataforma Ubidots. O NodeMCU recebe os dados do Arduino, em seguida faz o upload e publica o tópico BPM para o Ubidots.
