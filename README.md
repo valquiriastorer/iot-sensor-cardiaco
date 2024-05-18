@@ -100,4 +100,4 @@ No arquivo WIFI.ino, que é o código para a placa NodeMCU, é necessário adici
 
 Assim, depois de seguir todos os passos, ao colocar o dedo no sensor de batimento cardíaco, é possível observar o LED piscando conforme os batimentos, e observar os dados no dashboard do Ubidots no formato de sua preferência. Eu escolhi por exemplo o gráfico de linhas para visualização.
 
-(inserir imagem do dashboard)
+![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/871ab923-a2d1-401c-b3c8-eb9c1fb88ffa)
