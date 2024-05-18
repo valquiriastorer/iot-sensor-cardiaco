@@ -59,7 +59,7 @@ Neste sensor de frequência cardíaca, a leitura das batidas do coração é fei
 
     ![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/5d3a3a1c-0012-4e3b-bf7b-ffe3bb33ffb6)
 
-    Baixar a biblioteca [ubidots-mqtt-esp] como .zip, em `Sketch > Include Library > Add .ZIP Library` adicione o arquivo .zip e clique em Accept 
+    Baixar a biblioteca [ubidots-mqtt-esp](https://github.com/ubidots/ubidots-mqtt-esp) como .zip, em `Sketch > Include Library > Add .ZIP Library` adicione o arquivo .zip e clique em Accept 
 
 3. Abrir na IDE o arquivo heartbeat.ino.
 4. Conectar-se ao Arduino Nano em `Tools > Board`, apertar Verify para compilar o código e depois em Upload. 
