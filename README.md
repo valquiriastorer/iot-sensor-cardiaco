@@ -86,7 +86,18 @@ Neste sensor de frequência cardíaca, a leitura das batidas do coração é fei
     Baixar a biblioteca [ubidots-mqtt-esp](https://github.com/ubidots/ubidots-mqtt-esp) como .zip, em `Sketch > Include Library > Add .ZIP Library` adicione o arquivo .zip e clique em Accept 
 
 ### Comunicação com a internet com protocolo MQTT
+Para conexão DO PROJETO com a internet usando o protocolo MQTT, foi utilizado a plataforma Ubidots. O NodeMCU recebe os dados do Arduino, em seguida faz o upload e publica o tópico BPM para o Ubidots.
 
+Primeiro, é necessário criar uma nova conta em https://ubidots.com/ ou logar se já tem uma conta existente.
 
-- documentação das interfaces, protocolos e módulos de comunicação.
-- projeto deve possuir comunicação/controle via internet (TCP/IP) e uso do Protocolo MQTT.
+Depois, é necessário obter a chave da API em API Credentials, e copiar o Default token para receber os dados.
+
+![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/44091f7d-8bb4-4bf9-ae35-e65f8ceaf8f3)
+
+No arquivo WIFI.ino, que é o código para a placa NodeMCU, é necessário adicionar a rede Wifi, senha do Wifi e o token do Ubidots obtido.
+
+![confi-wifi-ino](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/2e0d5ce8-0a84-42d8-b51f-5bba7656582f)
+
+Assim, depois de seguir todos os passos, ao colocar o dedo no sensor de batimento cardíaco, é possível observar o LED piscando conforme os batimentos, e observar os dados no dashboard do Ubidots no formato de sua preferência. Eu escolhi por exemplo o gráfico de linhas para visualização.
+
+(inserir imagem do dashboard)
