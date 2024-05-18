@@ -81,6 +81,8 @@ No arquivo WIFI.ino, que é o código para a placa NodeMCU, é necessário adici
 
 ![confi-wifi-ino](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/2e0d5ce8-0a84-42d8-b51f-5bba7656582f)
 
-Assim, depois de seguir todos os passos, ao colocar o dedo no sensor de batimento cardíaco, é possível observar o LED piscando conforme os batimentos, e observar os dados no dashboard do Ubidots no formato de sua preferência. Eu escolhi por exemplo o gráfico de linhas para visualização.
+Assim, depois de seguir todos os passos, ao colocar o dedo no sensor de batimento cardíaco, é possível observar o LED piscando conforme os batimentos, visualizar os dados registrados pelo Ardino Nano, e observar os dados no dashboard do Ubidots no formato de sua preferência. Eu escolhi por exemplo o gráfico de linhas para visualização.
 
-![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/871ab923-a2d1-401c-b3c8-eb9c1fb88ffa)
+![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/598ffc14-1c45-4dad-9d69-a92ac2b34ab3)
+
+![image](https://github.com/valquiriastorer/iot-sensor-cardiaco/assets/101532054/68f827c4-1e3b-4ebe-861e-a8134986bb32)
