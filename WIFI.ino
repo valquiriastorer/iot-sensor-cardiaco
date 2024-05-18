@@ -6,9 +6,9 @@ String myString; // complete message from arduino, which consistors of snesors d
 char rdata; // received charactors
 String myBPM;
  
-#define TOKEN "BBUS-eY7X8kLTRIVAQOMxyQw3q4hnWQae78" // Your Ubidots TOKEN
-#define WIFINAME "CSSV" //Your SSID
-#define WIFIPASS "seguro292412y" // Your Wifi Pass
+#define TOKEN "****************" // Your Ubidots TOKEN
+#define WIFINAME "*************" //Your SSID
+#define WIFIPASS "*************" // Your Wifi Pass
  
 
 Ubidots client(TOKEN);
