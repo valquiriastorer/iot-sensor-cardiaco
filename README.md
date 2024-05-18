@@ -69,7 +69,7 @@ Neste sensor de frequência cardíaca, a leitura das batidas do coração é fei
 5. Abrir em outra janela da IDE o arquivo WIFI.ino. Se conectar a esp8266 em Boards e repetir o mesmo processo feito com o Arduino.
 
 ### Comunicação com a internet com protocolo MQTT
-Para conexão DO PROJETO com a internet usando o protocolo MQTT, foi utilizado a plataforma Ubidots. O NodeMCU recebe os dados do Arduino, em seguida faz o upload e publica o tópico BPM para o Ubidots.
+Para conexão do projeto com a internet usando o protocolo MQTT, foi utilizado a plataforma Ubidots. O NodeMCU recebe os dados do Arduino, em seguida faz o upload e publica o tópico BPM para o Ubidots.
 
 Primeiro, é necessário criar uma nova conta em https://ubidots.com/ ou logar se já tem uma conta existente.
 
